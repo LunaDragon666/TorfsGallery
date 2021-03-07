@@ -31,7 +31,6 @@
     display: none;
   }
 
-  .logo:hover,
   .nav-links:hover {
     color: blue;
   }
