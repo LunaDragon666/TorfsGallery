@@ -20,6 +20,7 @@ footer {
 
 /* Logo design */
 .logo {
+  font-family: "cortado", "Times New Roman", Times, serif;
   display: inline-block;
   font-size: 2em;
   margin-top: 10px;
