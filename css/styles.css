@@ -18,9 +18,12 @@ footer {
   padding-bottom: 10px;
 }
 
-.main-nav {
-  list-style-type: none;
-  display: none;
+/* Logo design */
+.logo {
+  display: inline-block;
+  font-size: 2em;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
 .nav-links,
@@ -29,25 +32,25 @@ footer {
   color: black;
 }
 
-.main-nav li {
-  text-align: center;
-  margin: 15px auto;
-}
-
-.logo {
-  display: inline-block;
-  font-size: 22px;
-  margin-top: 10px;
-  margin-left: 20px;
-}
-
+/* Hamburger menu */
 .navbar-toggle {
   position: absolute;
   top: 10px;
   right: 20px;
   cursor: pointer;
   color: black;
-  font-size: 24px;
+  font-size: 2em;
+}
+
+/* Menu links */
+.main-nav {
+  list-style-type: none;
+  display: none;
+}
+
+.main-nav li {
+  text-align: center;
+  margin: 15px auto;
 }
 
 .active {
