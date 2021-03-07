@@ -19,7 +19,8 @@
     margin: 0;
   }
 
-  .nav-links {
+  .nav-links,
+  .nav-links-active {
     margin-left: 40px;
   }
 
