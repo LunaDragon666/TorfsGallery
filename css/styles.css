@@ -28,6 +28,7 @@ footer {
 }
 
 .nav-links,
+.nav-links-active,
 .logo {
   text-decoration: none;
   color: black;
@@ -56,4 +57,8 @@ footer {
 
 .active {
   display: block;
+}
+
+.nav-links-active {
+  text-decoration: underline;
 }
