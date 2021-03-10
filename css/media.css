@@ -35,6 +35,8 @@
 
   .nav-links:hover {
     color: blue;
+    text-decoration: underline;
+    text-underline-offset: 10px;
   }
 
   /* GALLERY PAGE SECTION */
