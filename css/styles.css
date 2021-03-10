@@ -13,18 +13,25 @@ footer {
 
 .navbar {
   font-size: 18px;
-  background-color: whitesmoke;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  padding-bottom: 10px;
+  background-color: #fff;
+  border-bottom: 1px solid #eaecef;
+  box-shadow: 0 5px 5px 0 rgba(186, 186, 226, 0.2);
+  margin-bottom: 15px;
 }
 
 /* Logo design */
 .logo {
-  font-family: "cortado", "Times New Roman", Times, serif;
+  font-family: rollerscript-smooth, sans-serif;
+  font-weight: bold;
   display: inline-block;
   font-size: 2em;
   margin-top: 10px;
   margin-left: 20px;
+}
+
+.logo:hover {
+  color: blue;
+  letter-spacing: 0.25em;
 }
 
 .nav-links,
@@ -61,11 +68,41 @@ footer {
 
 .nav-links-active {
   text-decoration: underline;
-  text-decoration-thickness: 0.3em;
-  text-decoration-color: #a6cef7;
+  text-decoration-thickness: 0.1em;
+  text-decoration-color: #000090;
   text-decoration-skip-ink: none;
-  text-underline-offset: 21px;
+  text-underline-offset: 10px;
   cursor: default;
+  font-weight: bolder;
 }
 
 /* GALLERY PAGE SECTION */
+.latest-images {
+  width: 100%;
+  display: flex;
+}
+
+.main-image {
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 30vh;
+  width: 50%;
+}
+
+.main-img {
+  width: 100%;
+}
+
+.images-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.new-imgs1,
+.new-imgs2,
+.new-imgs3,
+.new-imgs4 {
+  height: 38.8vh;
+  width: 44.8vh;
+}
