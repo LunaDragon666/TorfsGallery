@@ -13,6 +13,7 @@
     margin-right: 30px;
     flex-direction: row;
     justify-content: flex-end;
+    letter-spacing: 0.19em;
   }
 
   .main-nav li {
@@ -35,4 +36,6 @@
   .nav-links:hover {
     color: blue;
   }
+
+  /* GALLERY PAGE SECTION */
 }
