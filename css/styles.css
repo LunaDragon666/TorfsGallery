@@ -106,3 +106,9 @@ footer {
   height: 38.8vh;
   width: 44.8vh;
 }
+
+/* Footer ~ The end page section */
+footer {
+  text-align: center;
+  padding: 25px;
+}
