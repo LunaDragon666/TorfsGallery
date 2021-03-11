@@ -110,5 +110,10 @@ footer {
 /* Footer ~ The end page section */
 footer {
   text-align: center;
-  padding: 25px;
+  padding: 20px;
+}
+
+.p-footer {
+  margin-top: 5px;
+  font-size: 0.75em;
 }
