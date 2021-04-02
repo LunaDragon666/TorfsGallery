@@ -8,3 +8,5 @@ navBarToggle.addEventListener('click', function () {
 
 
 // GALLERY PAGE SECTION
+
+// Contact form function(s) ~ send email 
