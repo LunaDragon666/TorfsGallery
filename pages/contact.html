@@ -40,40 +40,34 @@
 </header>
 
 <!-- Contact form page section -->
-<main>
-<section class="contact_form">
-   <h1 class="contact-header">Contact me</h1>
+<main class="container">
+    <div id="message"></div>
+    <h1>Send me a request</h1>
+        <p class="form_text"><span class="required">*</span> required fields</p>
+    <form>
+        <div>
+            <label>
+                <span class="required">*</span> Name
+                <input name="firstName" id="firstName" />
+            </label>
+        </div>
 
-   <form id="fcf-form-id" class="fcf-form-class" method="post" action="../contact.php">
-        
-      <div class="fcf-form-group">
-          <label for="Name" class="fcf-label"><span class="recuired">* </span>Your name:</label>
-          <div class="fcf-input-group">
-              <input type="text" id="Name" name="Name" class="fcf-form-control" required placeholder="Ola Nordmann">
-          </div>
-      </div>
+        <div>
+            <label>
+                <span class="required">*</span> Email-adress
+                <input name="email" id="email" />
+            </label>
+        </div>
 
-      <div class="fcf-form-group">
-          <label for="Email" class="fcf-label"><span class="recuired">* </span>E-mail address:</label>
-          <div class="fcf-input-group">
-              <input type="email" id="Email" name="Email" class="fcf-form-control" required placeholder="ola.nordmann@gmail.com">
-          </div>
-      </div>
+        <div>
+            <label>
+                <span class="required">*</span> Message (min. 25 characters)
+                <textarea name="lastName" id="lastName"></textarea>
+            </label>
+        </div>
 
-      <div class="fcf-form-group">
-          <label for="Message" class="fcf-label"><span class="recuired">* </span>Message:</label>
-          <div class="fcf-input-group">
-              <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required placeholder="Please place yout request here"></textarea>
-          </div>
-      </div>
-
-      <div class="fcf-form-group">
-          <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
-      </div>
-
-  </form>
-
-</section>
+        <button disabled>Send</button>
+    </form>
 </main>
 
 <!-- Footer -->
