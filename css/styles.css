@@ -145,6 +145,45 @@ img.new-imgs6,
   height: 97vh;
 }
 
+.images-wrap-inverse {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 15px;
+  margin: 15px 0 0 15px;
+}
+
+.big-image {
+  width: 100%;
+  display: flex;
+}
+
+.bigger-image {
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 64.85%;
+}
+
+.new-imgs10,
+.new-imgs11 {
+  width: 64vh;
+  height: 51.75vh;
+}
+
+.subby-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 15px 0px 0px 15px;
+}
+
+.new-imgs12,
+.new-imgs13,
+.new-imgs14,
+.new-imgs15 {
+  width: 47.5vh;
+  height: 47.5vh;
+}
+
 /* Footer ~ The end page section */
 footer {
   text-align: center;
