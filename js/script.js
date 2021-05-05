@@ -6,6 +6,7 @@ navBarToggle.addEventListener('click', function () {
   mainNav.classList.toggle('active');
 });
 
+
 // Disable copying images
 function nocontext(e) {
   var clickedTag = (e==null) ? event.srcElement.tagName : e.target.tagName;
@@ -15,5 +16,4 @@ function nocontext(e) {
 
 document.oncontextmenu = nocontext;
 
-
-// GALLERY PAGE SECTION
+// Gallery links
