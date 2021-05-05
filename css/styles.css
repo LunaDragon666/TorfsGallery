@@ -4,6 +4,16 @@ footer {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
 
+img {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -user-drag: none;
+  -webkit-touch-callout: none;
+}
+
 /* Navigation bar ~ Main menu field */
 * {
   margin: 0;
@@ -119,85 +129,4 @@ footer {
 .p-footer {
   margin-top: 5px;
   font-size: 0.75em;
-}
-
-/* Contact form section */
-.container {
-  max-width: 760px;
-  margin: 0 auto;
-}
-
-h1,
-.form_text {
-  padding: 30px;
-}
-
-h1 {
-  margin-top: 30px;
-}
-
-.form_text {
-  margin-top: -40px;
-  margin-bottom: -50px;
-}
-
-.required {
-  font-weight: bold;
-  color: red;
-}
-
-form {
-  padding: 2em;
-  border-radius: 1rem;
-}
-
-input {
-  width: 100%;
-  margin-top: 2px;
-  padding: 10px;
-  font-size: 16px;
-}
-
-button,
-button:disabled {
-  margin-top: 25px;
-}
-
-button {
-  background: rgb(11, 91, 133);
-  border: none;
-  width: 200px;
-  padding: 1rem;
-  color: white;
-  cursor: pointer;
-  border-radius: 0.2rem;
-}
-
-button:disabled {
-  background: gray;
-}
-
-label {
-  display: block;
-  margin-top: 35px;
-}
-
-textarea {
-  width: 695px;
-  max-width: 700px;
-  min-height: 105px;
-  padding: 1em;
-  font-family: sans-serif;
-  font-size: 1em;
-  letter-spacing: 0.025em;
-  line-height: 1.5em;
-  margin-top: 10px;
-}
-
-.message {
-  background: green;
-  padding: 1rem;
-  margin: 50px 0 -20px 30px;
-  color: white;
-  width: 92.5%;
 }
