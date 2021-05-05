@@ -116,8 +116,21 @@ img {
 .new-imgs2,
 .new-imgs3,
 .new-imgs4 {
-  height: 38.8vh;
-  width: 44.8vh;
+  height: 40vh;
+  width: 46vh;
+}
+
+.sub-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 15px 0px 0px 15px;
+}
+
+img.new-imgs5,
+img.new-imgs6,
+.new-imgs7 {
+  height: 60vh;
+  width: 64vh;
 }
 
 /* Footer ~ The end page section */
