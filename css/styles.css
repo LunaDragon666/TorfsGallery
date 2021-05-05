@@ -133,6 +133,18 @@ img.new-imgs6,
   width: 64vh;
 }
 
+.more-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 15px 0px 0px 15px;
+}
+
+.new-imgs8,
+.new-imgs9 {
+  width: 97vh;
+  height: 97vh;
+}
+
 /* Footer ~ The end page section */
 footer {
   text-align: center;
