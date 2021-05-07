@@ -319,7 +319,7 @@ h2 {
   bottom: 5%;
 }
 
-#myBtn {
+.myBtn {
   background: none;
   position: fixed;
   bottom: -5px;
@@ -331,7 +331,7 @@ h2 {
   padding: 1em;
 }
 
-#myBtn:hover {
+.myBtn:hover {
   background-color: #7dbbf1;
 }
 
