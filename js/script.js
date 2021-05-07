@@ -20,7 +20,7 @@ document.oncontextmenu = nocontext;
 function myFunction() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
+  var btnText = document.getElementById("readBtn");
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
