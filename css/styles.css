@@ -245,6 +245,21 @@ q {
   margin-top: 15px;
 }
 
+#readBtn {
+  background-color: gray;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  font-size: 1em;
+}
+
+#readBtn:hover {
+  background: none;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 #more {
   display: none;
 }
