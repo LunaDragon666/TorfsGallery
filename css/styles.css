@@ -248,3 +248,30 @@ q {
 #more {
   display: none;
 }
+
+/* GALLERY SUBPAGE */
+.flexbox {
+  background: aliceblue;
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.img {
+  background: url("../images/gallery/painting20.jpg") center bottom no-repeat;
+  background-size: cover;
+  height: 85vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 65%;
+}
+
+.content {
+  padding: 2.5em;
+}
+
+.date {
+  font-size: 0.75em;
+}
