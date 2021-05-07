@@ -275,3 +275,19 @@ q {
 .date {
   font-size: 0.75em;
 }
+
+.other-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.imgs {
+  width: 43.25vh;
+  height: 36.75vh;
+  margin-bottom: 0px;
+}
+
+h2 {
+  padding: 30px 0;
+}
