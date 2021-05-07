@@ -318,3 +318,26 @@ h2 {
   position: absolute;
   bottom: 5%;
 }
+
+#myBtn {
+  background: none;
+  position: fixed;
+  bottom: -5px;
+  right: 0%;
+  max-width: 125px;
+  width: 100%;
+  font-size: 1em;
+  border: none;
+  padding: 1em;
+}
+
+#myBtn:hover {
+  background-color: #7dbbf1;
+}
+
+a.top {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
