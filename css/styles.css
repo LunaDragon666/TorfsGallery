@@ -274,7 +274,7 @@ q {
 }
 
 .img {
-  background: url("../images/gallery/painting20.jpg") center bottom no-repeat;
+  background: url("../images/gallery/painting19.jpg") center bottom no-repeat;
   background-size: cover;
   height: 85vh;
   position: relative;
@@ -299,8 +299,8 @@ q {
 }
 
 .imgs {
-  width: 43.25vh;
-  height: 36.75vh;
+  width: 100%;
+  height: 100%;
   margin-bottom: 0px;
 }
 
