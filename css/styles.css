@@ -99,6 +99,7 @@ img {
 
 .main-img {
   width: 100%;
+  height: 100%;
 }
 
 .images-wrap {
@@ -111,7 +112,7 @@ img {
 .new-imgs2,
 .new-imgs3,
 .new-imgs4 {
-  height: 39.7vh;
+  height: 100%;
   width: 46vh;
 }
 
