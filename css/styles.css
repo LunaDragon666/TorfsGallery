@@ -128,6 +128,52 @@ img.later-imgs {
   height: 100%;
 }
 
+.previous-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 15px 15px;
+  grid-template-areas:
+    "imgs7 imgs6 imgs5"
+    "imgs8 sub-img sub-img"
+    "imgs9 sub-img sub-img";
+  margin: 0px 15px 0px 15px;
+}
+
+.sub-img {
+  grid-area: sub-img;
+}
+
+.imgs5 {
+  grid-area: imgs5;
+}
+
+.imgs6 {
+  grid-area: imgs6;
+}
+
+.imgs7 {
+  grid-area: imgs7;
+}
+
+.imgs8 {
+  grid-area: imgs8;
+}
+
+.imgs9 {
+  grid-area: imgs9;
+}
+
+.subl-img {
+  width: 100%;
+  height: 100%;
+}
+
+.subs-imgs {
+  height: 100%;
+  width: 100%;
+}
+
 .latest-images {
   width: 99%;
   display: flex;
