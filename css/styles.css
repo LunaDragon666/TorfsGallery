@@ -119,14 +119,15 @@ img {
 .sub-images {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 15px 0px 0px 15px;
+  grid-gap: 15px;
+  margin: 15px 15px 0 15px;
 }
 
 .new-imgs5,
 .new-imgs6,
 .new-imgs7 {
-  height: 56vh;
-  width: 64vh;
+  height: 100%;
+  width: 100%;
 }
 
 .more-images {
@@ -137,15 +138,15 @@ img {
 
 .new-imgs8,
 .new-imgs9 {
-  width: 97vh;
-  height: 83vh;
+  width: 98%;
+  height: 100%;
 }
 
 .images-wrap-inverse {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 15px;
-  margin: 15px 0 0 15px;
+  margin: 15px -56px 0 15px;
 }
 
 .big-image {
@@ -155,15 +156,15 @@ img {
 
 .bigger-image {
   margin-top: 15px;
-  margin-left: 15px;
-  margin-right: 15px;
-  width: 64.85%;
+  margin-left: -10px;
+  margin-right: 20px;
+  width: 100%;
 }
 
 .new-imgs10,
 .new-imgs11 {
-  width: 64vh;
-  height: 47.5vh;
+  width: 85.5%;
+  height: 100%;
 }
 
 .subby-images {
@@ -176,8 +177,8 @@ img {
 .new-imgs13,
 .new-imgs14,
 .new-imgs15 {
-  width: 47.5vh;
-  height: 42.5vh;
+  width: 96%;
+  height: 100%;
 }
 
 /* Footer ~ The end page section */
