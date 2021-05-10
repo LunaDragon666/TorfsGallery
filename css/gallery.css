@@ -18,6 +18,18 @@
   width: 65%;
 }
 
+.img2 {
+  background: url("../images/gallery/maritime/painting18.jpg") center bottom
+    no-repeat;
+  background-size: cover;
+  height: 85vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 65%;
+}
+
 .content {
   padding: 2.5em;
 }
