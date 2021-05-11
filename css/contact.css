@@ -12,9 +12,11 @@ h1 {
   padding-top: 3em;
 }
 
+/* Requirement text & fields */
 .form_text {
   margin-top: -40px;
   margin-bottom: -50px;
+  letter-spacing: 0.07em;
 }
 
 .required {
@@ -22,6 +24,7 @@ h1 {
   color: red;
 }
 
+/* FORM CONTENT */
 form {
   padding: 2em;
   border-radius: 1rem;
@@ -34,6 +37,24 @@ input {
   font-size: 16px;
 }
 
+label {
+  display: block;
+  margin-top: 35px;
+  letter-spacing: 0.05em;
+}
+
+textarea {
+  width: 100%;
+  min-height: 45vh;
+  padding: 1em;
+  font-family: sans-serif;
+  font-size: 1em;
+  letter-spacing: 0.025em;
+  line-height: 1.5em;
+  margin-top: 10px;
+}
+
+/* Send-button */
 button,
 button:disabled {
   margin-top: 25px;
@@ -46,30 +67,17 @@ button {
   padding: 1rem;
   color: white;
   cursor: pointer;
-  border-radius: 0.2rem;
+  border-radius: 0.1rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 button:disabled {
   background: gray;
 }
 
-label {
-  display: block;
-  margin-top: 35px;
-}
-
-textarea {
-  width: 695px;
-  max-width: 700px;
-  min-height: 105px;
-  padding: 1em;
-  font-family: sans-serif;
-  font-size: 1em;
-  letter-spacing: 0.025em;
-  line-height: 1.5em;
-  margin-top: 10px;
-}
-
+/* Message display after form's sent */
 .message {
   background: #419841;
   padding: 1rem;
@@ -77,4 +85,5 @@ textarea {
   color: white;
   width: 92.5%;
   letter-spacing: 0.05em;
+  border-radius: 0.1em;
 }
