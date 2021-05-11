@@ -91,11 +91,6 @@ h2 {
   text-transform: uppercase;
 }
 
-p {
-  white-space: nowrap;
-  font-size: 0.8em;
-}
-
 .overlay {
   position: absolute;
   bottom: 0;
