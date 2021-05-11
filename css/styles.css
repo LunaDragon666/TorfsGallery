@@ -5,6 +5,18 @@ footer {
   overflow-x: hidden;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 img {
   -moz-user-select: none;
   -webkit-user-select: none;
@@ -87,12 +99,11 @@ img {
 
 /* Footer ~ The end page section */
 footer {
-  text-align: center;
-  padding: 20px;
-}
-
-.p-footer {
-  margin-top: 5px;
-  font-size: 0.75em;
+  background-color: rgb(235, 235, 235);
+  font-size: small;
+  padding: 1.1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   text-align: center;
 }
