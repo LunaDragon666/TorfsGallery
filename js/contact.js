@@ -26,7 +26,7 @@ email.addEventListener("keyup", checkIfButtonIsDisabled);
 function submitForm(event) {
     event.preventDefault();
     // display a message once the form has been submitted
-    message.innerHTML = '<div class="message">Your message has been sent</div>';
+    message.innerHTML = '<div class="message">Your message has been sent successfully!</div>';
     // clear all input values
     form.reset();
 }
