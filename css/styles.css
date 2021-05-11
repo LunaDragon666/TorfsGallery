@@ -170,6 +170,46 @@ p {
   height: 100%;
 }
 
+.imgs5:hover .overlay1 {
+  height: 100%;
+}
+
+.imgs6:hover .overlay1 {
+  height: 100%;
+}
+
+.imgs7:hover .overlay1 {
+  height: 100%;
+}
+
+.imgs8:hover .overlay1 {
+  height: 100%;
+}
+
+.imgs9:hover .overlay1 {
+  height: 100%;
+}
+
+.imgs10:hover .overlay1 {
+  height: 100%;
+}
+
+.imgs11:hover .overlay1 {
+  height: 100%;
+}
+
+.imgs12:hover .overlay1 {
+  height: 100%;
+}
+
+.first:hover .overlay1 {
+  height: 100%;
+}
+
+.third:hover .overlay1 {
+  height: 100%;
+}
+
 .tx1 {
   padding: 0 40px;
   display: inline-block;
@@ -260,22 +300,47 @@ p {
 
 .imgs5 {
   grid-area: imgs5;
+  position: relative;
+  width: 100%;
 }
 
 .imgs6 {
   grid-area: imgs6;
+  position: relative;
+  width: 100%;
 }
 
 .imgs7 {
   grid-area: imgs7;
+  position: relative;
+  width: 100%;
 }
 
 .imgs8 {
   grid-area: imgs8;
+  position: relative;
+  width: 100%;
 }
 
 .imgs9 {
   grid-area: imgs9;
+  position: relative;
+  width: 100%;
+}
+
+.imgs10 {
+  position: relative;
+  width: 100%;
+}
+
+.imgs11 {
+  position: relative;
+  width: 100%;
+}
+
+.imgs12 {
+  position: relative;
+  width: 100%;
 }
 
 .subl-img {
@@ -337,6 +402,8 @@ p {
 }
 .first {
   grid-area: first;
+  position: relative;
+  width: 100%;
 }
 
 .second {
@@ -345,6 +412,8 @@ p {
 
 .third {
   grid-area: third;
+  position: relative;
+  width: 100%;
 }
 
 .forth {
