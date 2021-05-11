@@ -71,9 +71,10 @@ textarea {
 }
 
 .message {
-  background: green;
+  background: #419841;
   padding: 1rem;
   margin: 50px 0 -35px 30px;
   color: white;
   width: 92.5%;
+  letter-spacing: 0.05em;
 }
