@@ -47,3 +47,8 @@ function validateEmail(email) {
     const patternMatches = regEx.test(email);
     return patternMatches;
 }
+
+   // Back to top of the contact form after it pass or fail to submit it 
+   function theTop() {
+    window.scrollTo(0, 0);
+}
