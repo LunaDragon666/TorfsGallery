@@ -124,6 +124,10 @@ p {
   height: 100%;
 }
 
+.fifth:hover .overlay {
+  height: 100%;
+}
+
 .tx {
   white-space: nowrap;
   color: white;
@@ -349,6 +353,8 @@ p {
 
 .fifth {
   grid-area: fifth;
+  position: relative;
+  width: 100%;
 }
 
 .biggie {
