@@ -112,6 +112,10 @@ p {
   height: 100%;
 }
 
+.sub-img:hover .overlay {
+  height: 100%;
+}
+
 .tx {
   white-space: nowrap;
   color: white;
@@ -143,6 +147,14 @@ p {
 }
 
 .imgs2:hover .overlay1 {
+  height: 100%;
+}
+
+.imgs3:hover .overlay1 {
+  height: 100%;
+}
+
+.imgs4:hover .overlay1 {
   height: 100%;
 }
 
@@ -195,10 +207,14 @@ p {
 
 .imgs3 {
   grid-area: imgs3;
+  position: relative;
+  width: 100%;
 }
 
 .imgs4 {
   grid-area: imgs4;
+  position: relative;
+  width: 100%;
 }
 
 .last-img {
@@ -207,7 +223,7 @@ p {
   height: 100%;
 }
 
-img.later-imgs {
+.later-imgs {
   width: 100%;
   height: 100%;
 }
@@ -226,6 +242,8 @@ img.later-imgs {
 
 .sub-img {
   grid-area: sub-img;
+  position: relative;
+  width: 100%;
 }
 
 .imgs5 {
