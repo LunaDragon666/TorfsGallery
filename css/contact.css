@@ -61,7 +61,7 @@ button:disabled {
 }
 
 button {
-  background: rgb(11, 91, 133);
+  background: #10627b;
   border: none;
   width: 200px;
   padding: 1rem;
@@ -75,6 +75,10 @@ button {
 
 button:disabled {
   background: gray;
+}
+
+button:hover {
+  background: #113346;
 }
 
 /* Message display after form's sent */
