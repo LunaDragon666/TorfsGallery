@@ -71,6 +71,7 @@ button {
   letter-spacing: 0.25em;
   text-transform: uppercase;
   font-weight: bold;
+  margin-bottom: 75px;
 }
 
 button:disabled {
