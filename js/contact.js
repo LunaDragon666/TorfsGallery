@@ -1,13 +1,13 @@
 const form = document.querySelector("form");
 const firstName = document.querySelector("#firstName");
-const lastName = document.querySelector("#lastName");
+const letter = document.querySelector("#letter");
 const email = document.querySelector("#email");
 const message = document.querySelector("#message");
 const button = document.querySelector("button");
 
 function checkIfButtonIsDisabled() {
     // if all inputs pass validation enable the button
-    if (checkLength(firstName.value, 1) && checkLength(lastName.value, 24) && validateEmail(email.value)) {
+    if (checkLength(firstName.value, 1) && checkLength(letter.value, 24) && validateEmail(email.value)) {
         button.disabled = false;
     } else {
         // clear the message
@@ -19,7 +19,7 @@ function checkIfButtonIsDisabled() {
 
 // call the same function for each input's keyup event
 firstName.addEventListener("keyup", checkIfButtonIsDisabled);
-lastName.addEventListener("keyup", checkIfButtonIsDisabled);
+letter.addEventListener("keyup", checkIfButtonIsDisabled);
 email.addEventListener("keyup", checkIfButtonIsDisabled);
 
 // function to run when the form is submitted
