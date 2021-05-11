@@ -202,6 +202,10 @@ p {
   height: 100%;
 }
 
+.imgs13:hover .overlay1 {
+  height: 100%;
+}
+
 .first:hover .overlay1 {
   height: 100%;
 }
@@ -339,6 +343,11 @@ p {
 }
 
 .imgs12 {
+  position: relative;
+  width: 100%;
+}
+
+.imgs13 {
   position: relative;
   width: 100%;
 }
