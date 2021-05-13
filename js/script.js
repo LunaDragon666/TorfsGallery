@@ -10,8 +10,9 @@ navBarToggle.addEventListener('click', function () {
 // Disable copying images
 function nocontext(e) {
   var clickedTag = (e==null) ? event.srcElement.tagName : e.target.tagName;
-  if (clickedTag == "IMG")
-    return false;
+  if (clickedTag == "IMG") {
+    return false; 
+  }
 }
 
 document.oncontextmenu = nocontext;
